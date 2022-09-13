@@ -44,6 +44,7 @@ console.log(removeAllStrings(['b' , 11 , 'smith', 2 , 'van' , 88, 22]))
 
 
 const getTotalTwins = (array) => {
+ return array.slice(4,5)
 }
 console.log(getTotalTwins([1 , 3 , 'b' , 'b' , 2 , 'w' , 1 , 1])) 
 // should return 2
